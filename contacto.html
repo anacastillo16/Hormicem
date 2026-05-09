@@ -1,71 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Hormicen Málaga</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="imgs/favicon.png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Hormicem</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="imgs/favicon.png" />
 
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
+  <body>
     <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-custom">
-  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="imgs/logo.jpeg" alt="Hormicen" class="nav-logo" />
+        </a>
 
-    <!-- LOGO -->
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="imgs/logo.jpeg" alt="Hormicen" class="nav-logo">
-    </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">Quiénes somos</a></li>
-        <li class="nav-item"><a class="nav-link" href="products.html">Productos</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
-
-<main>
-    <div class="container mt-4 text-center">
-        <p>📍 Málaga</p>
-        <p>📞 600 000 000</p>
-        <p>✉️ info@hormicen.com</p>
-
-        <div class="mt-4">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.816491255491!2d-4.5124563!3d36.7029474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f08491501489%3A0xd43860ef6360828a!2sHormicem!5e0!3m2!1ses!2ses!4v1778092969884!5m2!1ses!2ses" 
-                width="100%" 
-                height="300"
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy"> 
-            </iframe>
-
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-    </div>
-  </main>
+      </div>
+    </nav>
 
+    <main>
+      <h1 class="text-center mt-5">Contacto</h1>
+      <section class="container py-5">
+        <div class="row g-4 text-center">
+          <div class="col-md-4">
+            <div class="contact-card p-4 h-100">
+              <img src="imgs/ubi.png" alt="Img ubicacion" class="contact-icon mb-3">
+              <h5>Dirección</h5>
+              <p>C. Generación, 51, Campanillas, 29004 Málaga </p>
+            </div>
+          </div>
 
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <p>© 2026 Hormicen - Málaga</p>
-    <p>Hormigón de calidad para construcción y obra civil</p>
-  </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+          <div class="col-md-4">
+            <div class="contact-card p-4 h-100">
+              <img src="imgs/tlfn.png" alt="iImg telefono" class="contact-icon mb-3">
+              <h5>Teléfono</h5>
+              <p>600 000 000</p>
+            </div>
+            
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-card p-4 h-100">
+              <img src="imgs/email.png" alt="Img email" class="contact-icon mb-3">
+              <h5>Email</h5>
+              <p>hormicem@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mt-4 text-center">
+        <div class="mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.816491255491!2d-4.5124563!3d36.7029474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f08491501489%3A0xd43860ef6360828a!2sHormicem!5e0!3m2!1ses!2ses!4v1778092969884!5m2!1ses!2ses"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-4">
+      <div class="container">
+        <p>© 2026 Hormicen - Málaga</p>
+        <p>Hormigón de calidad para construcción y obra civil</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
-
