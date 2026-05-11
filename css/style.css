@@ -169,6 +169,43 @@ h1, h2, h3, h4, h5 {
   color: #2F2747;
 }
 
+/* CARTAS PRODUCTOS */
+.product-img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.product-card {
+  padding: 35px 25px;
+  border-radius: 16px;
+  height: 100%;
+
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(47,39,71,0.12);
+}
+
+/* COMO TRABAJAMOS SECCION */
+/* CARDS */
+.card-trabajo {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+}
+
+/* hover */
+.card-trabajo:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 /* CONTACTO CARDS */
 .contact-card {
   background-color: white;
