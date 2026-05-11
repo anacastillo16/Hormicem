@@ -206,6 +206,14 @@ h1, h2, h3, h4, h5 {
   transition: 0.3s;
 }
 
+/* HORARIO */
+.horario-box {
+  background-color: white;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
 /* CONTACTO CARDS */
 .contact-card {
   background-color: white;
